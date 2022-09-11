@@ -7,12 +7,13 @@
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
     </div>
+    <img src="/politecat.jpg" />
     <div class="content"><slot /></div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import Link from './Link.vue'
+import Link from "./Link.vue";
 </script>
 
 <style>
